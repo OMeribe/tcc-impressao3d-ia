@@ -1,0 +1,15 @@
+# Ambiente Virtual
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Dados e Fotos (Datasets costumam ser pesados demais para o Git comum)
+data/
+
+# IDEs
+.vscode/
+.idea/
