@@ -1,8 +1,8 @@
 import requests
 
 # Substitua com seus dados reais
-TOKEN = "8209383154:AAFTVenCCcCN-WCtZyVYq1FF02f4kd1Ydhc"
-CHAT_ID = "7375435501"
+TOKEN = ""
+CHAT_ID = ""
 
 def testar_conexao():
     url = f"https://api.telegram.org/bot{TOKEN}/sendMessage"
