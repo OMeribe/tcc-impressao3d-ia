@@ -1,15 +1,22 @@
-# Ambiente Virtual
+# Ambiente Virtual (Muito pesado)
 venv/
-.venv/
-env/
 
-# Python cache
+# Configurações Privadas (NUNCA suba seu Token/ID)
+config.json
+
+# Arquivos de log e detecções temporárias
+runs/
+capturas/
+alerta.jpg
+alerta_*.jpg
+
+# Modelos base
+yolov8n.pt
+
+# Pasta de dataset (
+3D-printing-failure-1/
+
+# Arquivos do sistema e VS Code
+.vscode/
 __pycache__/
 *.pyc
-
-# Dados e Fotos (Datasets costumam ser pesados demais para o Git comum)
-data/
-
-# IDEs
-.vscode/
-.idea/
